@@ -45,30 +45,7 @@
 
 @media (max-width: 650px){
 
-    .conteiner-notices{
-        grid-template-areas: "notice-left"
-                         "notice-right";
-    grid-template-columns: 1fr;
-    }
-
-
-    .left-notice { 
-
-        padding: 20px 10px;
-    }
-
-    .left-notice h1 {
-
-        max-width: 500px;
-
-    }
-
-    .left-notice p { 
-
-        max-width: 500px;
-    }
-
-
+  
 
     .search { 
         display: none;
@@ -81,7 +58,6 @@
         font-size: 20px;
         transition: .3s;
     }
-
     
 }
 
@@ -99,46 +75,14 @@
     header { 
         display: none;
     
+    
     }
-
-    .left-notice { 
-
-        padding: 20px 15px;
-    }
-
-    .left-notice h1 {
-
-        max-width: 500px;
-
-    }
-
-    .left-notice p { 
-
-        max-width: 500px;
-    }
-
-
 
 }
 
 @media (max-width: 444px) {
 
     
-    .left-notice h1 {
-
-        font-size: 20px;
-        max-width: 550px;
-        line-height: 28px;
-        margin-bottom: 10px;
-
-    }
-
-    .left-notice p { 
-
-        font-size: 12px;
-    }
-
-   
 
     .bottom-header { 
 
