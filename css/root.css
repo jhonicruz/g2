@@ -1,0 +1,43 @@
+@charset "UTF-8"; 
+
+/* Imported fonts from google */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Adjustments */
+
+
+* { 
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        
+    }
+
+    body { 
+        background-color: var(--color-bg);
+    }
+
+:root { 
+
+    --color-header: #C4170C;
+    --color-text: #A6130A;
+    --color-bg: #F9F9F9;
+    --color-search: #A7140A;
+    --font-open: 'Open Sans', sans-serif;
+    --font-mont: 'Montserrat', sans-serif;
+    --font-pop: 'Poppins', sans-serif;
+    --font-line-height-spaced: 150%;
+    --font-line-height-compact: 110%;
+
+    --color-nav01: #1c85ee;
+    --color-nav02: #CD170C;
+    --color-nav03: #06B16E;
+    --color-nav04: #FE6700;
+    --color-nav05: #FB0234;
+    --color-nav06: #1E4C9A;
+}

@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+main { 
+    padding: 20px;
+}
+
+
+/* Advertising 1 */
+
+.ad1 { 
+    margin: 10px 20px 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+.ad1 img { 
+        
+        max-width: 800px;
+        min-width: 300px;
+
+}
+
+/* Notices 1*/
+
+.left-notice { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+    background-color: white;
+    grid-area: "notice-left";
+    grid-row: notice-left;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.151);
+    padding-left: 15px;
+
+}
+
+.left-notice h1 { 
+
+    max-width: 450px;
+    min-width: 200px;
+    text-align: left;
+    padding: 0px 20px 0px 0px;
+    font-family: var(--font-open);
+    line-height: 35px;
+    color: var(--color-header);
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.title-notice-left > a {
+
+    color: var(--color-header);
+}
+
+.additional-notice > a { 
+
+    color: rgba(255, 0, 0, 0.596);
+}
+
+
+
+.left-notice p { 
+
+    
+    max-width: 450px;
+    min-width: 200px;
+    text-align: left;
+    padding: 10px 20px 0px 0px;
+    font-family: var(--font-mont);
+    font-size: 15px;
+    color: rgba(255, 0, 0, 0.596);
+    
+}
+
+
+.right-notice1 { 
+    max-width: 600px;
+    min-height: 200px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: "notice-right";
+    border-radius: 3px;
+    background-image: url(../img/img_01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+    transition: .5s;
+
+}
+
+.right-notice1:hover { 
+
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: multiply;
+    transition: .5s;
+}
+
+.right-notice2 { 
+    max-width: 600px;
+    min-height: 200px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: "notice-right";
+    border-radius: 3px;
+    background-image: url(../img/zemaguim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+
+
+}
+
+.right-notice2:hover { 
+
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: multiply;
+    transition: .5s;
+}
+
+.right-notice1 p { 
+
+padding: 10px;
+font-family: var(--font-open);
+
+}
+.right-notice2 p { 
+
+padding: 10px;
+font-family: var(--font-open);
+
+}
+
+.local { 
+    font-weight: bold;
+}
+
+
+/* starting grid */
+
+.conteiner-notices{ 
+
+    display: grid;  
+    max-width: 1200px;
+    min-height: 40%;
+    max-height: 60%;
+    margin: auto;
+    grid-template-areas: "notice-left notice-right"
+                         "notice-left notice-right";
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+    margin-bottom: 10px;
+   
+}
+
+/* Advertising 2 */
+
+.ad2 { 
+    margin: 30px 20px 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+.ad2 img { 
+        
+        max-width: 800px;
+        min-width: 300px;
+
+}
+
+/* Notices 2 */
+
+.right-notice3 { 
+    max-width: 600px;
+    min-height: 200px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: "notice-right";
+    border-radius: 3px;
+    background-image: url(../img/metallica-crato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-clip: content-box;
+    transition: .5s;
+
+}
+
+.right-notice3:hover { 
+
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: multiply;
+    transition: .5s;
+}
+
+.right-notice4 { 
+    max-width: 600px;
+    min-height: 200px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: "notice-right";
+    border-radius: 3px;
+    background-image: url(../img/zemaguim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+
+
+}
+
+.right-notice4:hover { 
+
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: multiply;
+    transition: .5s;
+}
+
+.right-notice3 p { 
+
+padding: 10px;
+font-family: var(--font-open);
+
+}
+.right-notice4 p { 
+
+padding: 10px;
+font-family: var(--font-open);
+
+}
+
+
+
+

@@ -1,0 +1,261 @@
+@charset "UTF-8"; 
+
+/* Top Header left */
+header { 
+  
+    height: 38px;
+    
+
+}
+
+.top-header { 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+    font-family: var(--font-pop);
+    background-color: var(--color-bg);
+
+}
+
+
+.top-header-left a { 
+
+    height: 100%;
+    font-size: 12px;
+    text-align: center;
+    border-inline-end: 1px solid rgba(226, 226, 226, 0.39);
+    font-weight: bold;
+    letter-spacing: -0.03125rem;
+    padding: 9px 8px;
+}
+
+/* Colorize links top left */
+
+#nav01 { 
+    color: var(--color-nav01);
+}
+#nav02 { 
+    color: var(--color-nav02);
+}
+#nav03 { 
+    color: var(--color-nav03);
+}
+#nav04 { 
+    color: var(--color-nav04);
+}
+#nav05 { 
+    color: var(--color-nav05);
+}
+#nav06 { 
+    color: var(--color-nav06);
+}
+
+/* Hover effect top border */
+
+#nav01:hover { 
+
+    border-top: 3px solid var(--color-nav01);
+    color: rgb(112, 184, 243);
+    transition: color .5s;
+}
+#nav02:hover { 
+
+    border-top: 3px solid var(--color-nav02);
+
+}
+#nav03:hover { 
+
+    border-top: 3px solid var(--color-nav03);
+
+}
+#nav04:hover { 
+
+    border-top: 3px solid var(--color-nav04);
+   
+}
+#nav05:hover { 
+
+    border-top: 3px solid var(--color-nav05);
+   
+}
+#nav06:hover { 
+
+    border-top: 3px solid var(--color-nav06);
+  
+}
+
+/* TITLE g2 CENTER header */
+
+#title { 
+    font-family: var(--font-pop);
+    color: white;
+    font-size: 2.375rem;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s ease-in-out;
+}
+
+/* Top header right  */
+
+
+#cta-header-top-right { 
+
+    font-size: 12px;
+    color: #999;
+    padding-right: 12px;
+
+}
+#cta-header-top-right:hover { 
+
+    color: #1063e0;
+}
+
+button { 
+
+    padding: 3px 3px 2px;
+    background-color: rgba(146, 146, 146, 0.534),;
+    cursor: pointer;
+    border-top: 0px;
+    border-right: 1px solid rgba(146, 146, 146, 0.534);
+    border-bottom: 1px solid rgba(146, 146, 146, 0.534);
+    border-left: 1px solid rgba(146, 146, 146, 0.534);
+    margin-right: 5px;
+    height: 25px;
+    text-transform: uppercase;
+    color: rgb(100, 100, 100);
+    font-size: 11px;
+    border-radius: 3px;
+    transition: .3s;
+    
+}
+
+button:hover { 
+
+    color: #1063e0;
+    background-color: #f7f7f7;
+}
+
+/* BOTTOM HEADER */
+
+.bottom-header { 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 40px;
+    background-color: var(--color-header);
+}
+
+
+.menu-bottom-header a, i, span { 
+
+    color: white;
+    font-family: var(--font-pop);
+}
+
+
+/* Nav menu bottom header left */
+
+
+
+.menu-bottom-header input,label{
+
+    font-family: var(--font-pop);
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.menu-bottom-header label i { 
+
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+
+.menu-bottom-header ul{ 
+    display: none;
+}
+
+.menu-bottom-header input[type="checkbox"] { 
+    
+    display: none;
+
+}
+
+/* Search bottom-header-right */
+
+.search { 
+
+    height: 28px;
+    background-color: aqua;
+    padding: 0 5px;
+    border-radius: 3px;
+    background-color: var(--color-search);
+    
+}
+
+#search-responsive { 
+    display: none;
+}
+
+.search input[type="text"] {
+    position: relative;
+    top: 10%;
+    width: 110px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-left: 2px;
+    color: white;
+    transition: .3s;
+
+}
+
+.search input[type="text"]::placeholder{ 
+
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.search i { 
+
+    position: relative;
+    top: 12%;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 2px;
+    transition: .3s;
+}
+
+.search i:hover {
+
+    font-size: 14px;
+    transition: .3s;
+
+}
+
+/* checked */
+
+
+.search input[type="text"]:focus { 
+
+    width: 200px;
+    transition: .4s;
+
+}
+
+
+
+
