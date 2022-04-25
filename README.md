@@ -1,6 +1,6 @@
 # g2
  Este é um estudo de **html e css** baseado no site do *g1 notícias*
- *Para todos os efeitos, O conteúdo desse estudo não deve ser levado em consideração, este projeto contém linguagem imprópria.
+ Para todos os efeitos, O conteúdo desse estudo não deve ser levado em consideração, este projeto contém linguagem imprópria.
 
 ***
 
