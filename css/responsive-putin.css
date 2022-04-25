@@ -1,19 +1,26 @@
 
+@media (min-width: 1921px) { 
+    .anchor {
+        display: none;
+    }
+   
+}
 
-@media (max-width: 1500px) { 
+@media (max-width: 1920px) { 
 
     .anchor { 
 
-        top: 1545px;
+        top: 2750px;
     }
 }
-@media (max-width: 1024px) { 
+
+
+@media (max-width: 895px) { 
 
     .anchor { 
 
-        top: 1525px;
+        display: none;
     }
-}
 
 
 @media (max-width: 895px) { 
