@@ -20,7 +20,7 @@
 
 Num Project | Name | Dev | Tecnologies
 --- | --- | --- | --- | ---
-02 | g2 - Notícias | Jhoni Cruz | html e css 
+02 | g2 - Notícias | Jhoni Cruz | html e css
 
 
 
