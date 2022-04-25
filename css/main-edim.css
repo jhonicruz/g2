@@ -4,7 +4,6 @@ main {
     padding: 20px;
 }
 
-
 /* Advertising 1 */
 
 .ad1 { 
@@ -18,7 +17,6 @@ main {
         min-width: 350px;
 
 }
-
 
 /* Advertising 2 */
 
@@ -47,9 +45,6 @@ main {
         min-width: 350px;
 
 }
-
-
-
 
 .headline { 
     
@@ -106,9 +101,6 @@ main {
     
 }
 
-
-
-
 .social-icons a i { 
 
     color: black;
@@ -140,8 +132,6 @@ main {
 
     display: none;
 }
-
-
 
 hr { 
 

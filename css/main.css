@@ -112,13 +112,20 @@ main {
     justify-content: space-between;
     grid-area: "notice-right";
     border-radius: 3px;
-    background-image: url(../img/zemaguim.jpg);
+    background-image: url(../img/edim.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-clip: content-box;
 
 
+}
+
+
+
+.headline > a  { 
+
+    color: white;
 }
 
 .right-notice2:hover { 
