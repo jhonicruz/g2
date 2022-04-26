@@ -33,8 +33,16 @@ main {
     grid-area: "notice-left";
     grid-row: notice-left;
     border-radius: 3px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
     padding-left: 15px;
+    transition: .3s;
+
+}
+
+.left-notice:hover { 
+
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.199);
+    transition: .3s;
 
 }
 
