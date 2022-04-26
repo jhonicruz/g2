@@ -1,6 +1,8 @@
 # g2
- Este é um estudo de **html e css** baseado no site do *g1 notícias*
- Para todos os efeitos, O conteúdo desse estudo não deve ser levado em consideração, este projeto contém linguagem imprópria.
+ Este é um estudo de **html e css** baseado no site do *g1 notícias*.
+ Para todos os efeitos, O conteúdo desse estudo não deve ser levado em consideração, este projeto pode conter linguagem imprópria e com um certo tom de humor e ironia. 
+
+ *the Zuera never End
 
 ***
 
@@ -11,8 +13,8 @@
 
 ## Observações: 
 
-* Este projeto foi executado utilizando some html e css puro. 
-* Utilizamos 3 BReakpoints principais 
+* Este projeto foi executado utilizando somente html e css puro. 
+* Utilizamos 3 Breakpoints principais 
 1. 1024px
 1. 775px
 1. 650px
