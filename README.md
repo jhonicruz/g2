@@ -2,7 +2,7 @@
  Este é um estudo de **html e css** baseado no site do *g1 notícias*.
  Para todos os efeitos, O conteúdo desse estudo não deve ser levado em consideração, este projeto pode conter linguagem imprópria e com um certo tom de humor e ironia. 
 
- *the Zuera never End
+ *the Zuera never End*
 
 ***
 
