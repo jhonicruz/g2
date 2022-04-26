@@ -17,7 +17,6 @@
 * Utilizamos 3 Breakpoints principais 
 1. 1024px
 1. 775px
-1. 650px
 1. 444px
 
 Num Project | Name | Dev | Tecnologies
