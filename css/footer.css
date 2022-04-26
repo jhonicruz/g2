@@ -65,7 +65,7 @@
     font-size: 12px;
     color: rgba(255, 255, 255, 0.829);
     font-family: var(--font-open);
-   border-inline-end: 1px rgba(255, 255, 255, 0.322) solid;
+   border-inline-start: 1px rgba(255, 255, 255, 0.322) solid;
    padding: 0px 8px 0px 8px;
     
 }

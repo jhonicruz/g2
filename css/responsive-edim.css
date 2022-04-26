@@ -140,3 +140,54 @@
 
 }
 
+@media (max-width: 370px) { 
+
+    .ad1 { 
+
+        margin: 10px;
+    }
+    .ad1 img { 
+        min-width: 260px;
+    }
+
+    .ad2 { 
+
+        margin: 10px;
+    }
+    .ad2 img { 
+        min-width: 260px;
+    }
+
+    .ad3 { 
+
+        margin: 10px;
+    }
+    .ad3 img { 
+        min-width: 260px;
+    }
+    .imagem { 
+        min-width: 260px;
+    }
+
+    main { 
+        padding: 5px;
+    }
+
+    .headline { 
+        padding: 0px 10px;
+    }
+    .headline p { 
+        font-size: 14px;
+    }
+
+    .bottom ul li a { 
+
+        font-size: 11px;
+    }
+    .bottom p  { 
+        font-size: 8px;
+        padding: 0px 5px 0px 5px;
+    }
+  
+}
+
